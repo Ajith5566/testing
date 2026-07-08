@@ -30,8 +30,7 @@ type ApiResponse = {
   newSlug?: string;
 };
 
-const STOREFRONT_BASE =
-  process.env.NEXT_PUBLIC_STOREFRONT_URL ?? "https://yourstore.com";
+const STOREFRONT_BASE ="https://testing-blue-alpha.vercel.app"
 
 export default function ProductPage() {
   const { slug } = useParams<{ slug: string }>();
