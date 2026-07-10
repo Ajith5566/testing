@@ -34,7 +34,7 @@ type Props = {
 };
 
 const STOREFRONT_BASE =
-  process.env.NEXT_PUBLIC_STOREFRONT_URL ?? "http://localhost:3000";
+  process.env.NEXT_PUBLIC_STOREFRONT_URL ?? "https://testing-blue-alpha.vercel.app";
 
 export default async function ProductPage({ params }: Props) {
   const { slug } = await params;
